@@ -8,7 +8,6 @@ body{
     
 }
 
-
 .contenedorS{
 
     display: flex;
@@ -20,15 +19,18 @@ body{
 }
 
 .contenedorSec{
+
     box-sizing: border-box;
     
 }
 .elemento{
+
     border: 8px solid black;
     flex-basis: 30%;
 }
 
 .uno{
+
     flex-basis: 20%;
     flex-grow: 0;
     flex-shrink: 0;
@@ -36,6 +38,7 @@ body{
 }
 
 .dos{
+
     flex-basis: 20%;
     flex-grow: 0;
     flex-shrink: 0;
@@ -50,6 +53,7 @@ body{
 }
 
 .tituloPag{
+
     font-weight:700;
     font-size: 50px;
     align-items: center;
@@ -65,6 +69,7 @@ body{
 }
 
 .nomStan{
+
     font-weight:700;
     font-size:70px;
     font-family:  system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
@@ -74,8 +79,7 @@ body{
     background-color: black;
     color: white;
     align-items: center;
-    word-break:break-all;
-    
+    word-break:break-all;  
     display: flex;
 }
 
@@ -167,4 +171,12 @@ body{
     width: 450px;
     height: 560px;
     display: flex;
+}
+
+.contenedorSWoody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
 }
