@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <header>
+        <a href="#" class="TituloPag">Leyendas del Cine</a>
+        <nav>
+          <ul>
+            <li><a href="#kubrick">Stanley Kubrick</a></li>
+            <li><a href="#miyazaki">Hayao Miyazaki</a></li>
+            <li><a href="#allen">Woody Allen</a></li>
+            <li><a href="#fincher">David Fincher</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="zona1"></section>
+    <!--
     <div class="contenedorSec">
         <h1>Top 3 Directores</h1> 
-    </div> 
+    </div> -->
     <div class="contenedorP">
-        <div class="contenedorPortada1">
+        <div id="kubrick" class="contenedorPortada1">
             <img id="portadaStan" src="Stanley/portada2.webp" alt="Stanley Kubrick">
              <div class="contenedorNomb">
                 <h2 class="H2nomStan">Stanley Kubrick</h2>
@@ -43,8 +57,43 @@
     </div>
     
     <!--SEGUNDA PELICULA-->
+
+    <div  class="contenedorP">
+        <div id="miyazaki" class="contenedorPortada1">
+            <img id="portadaStan" src="Hayao/Hayao-Miyazaki.jpg" alt="Hayao Miyazaki">
+             <div class="contenedorNomb">
+                <h2 class="H2nomStan">Hayao Miyazaki</h2>
+             </div>  
+        </div>
+          
+    </div>
+    
+    <div class="contenedorS">
+        <div class="elemento uno">
+            <img id="hayao1" src="Hayao/princesa.jpg" alt="Princesa Mononoke">
+            <div class="midnight prince">
+                <h3 id="H3Midnight">La Princesa <br> Mononoke</h3>
+            </div>      
+        </div>
+        <div class="elemento dos">
+            <img id="hayao2" src="Hayao/totoro.jpg" alt="Mi Vecino Totoro">
+            <div class="manhattan totoro">
+                <h3 id="H3Manhattan">Mi Vecino Totoro</h3>
+            </div> 
+        </div>
+        <div class="elemento tres">
+            <img id="hayao3" src="Hayao/catillo.jpg" alt="El Castillo en el Cielo">
+            <div class="deconstruc castillo">
+                <h3 id="H3Deconstruc">El Castillo en el <br> Cielo</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!--TERCERA PELICULA-->
+
     <div class="contenedorP">
-        <div class="contenedorPortada1">
+        <div id="allen" class="contenedorPortada1">
             <img id="portadaStan" src="Woody/portadaWoo.jpg" alt="Woody Allen">
              <div class="contenedorNomb">
                 <h2 class="H2nomStan">Woody Allen</h2>
@@ -73,14 +122,13 @@
             </div>
         </div>
     </div>
-
-    <!--TERCERA PELICULA-->
-
+    
+    <!--CUARTA PELICULA-->
     <div class="contenedorP">
-        <div class="contenedorPortada1">
-            <img id="portadaStan" src="Hayao/Hayao-Miyazaki.jpg" alt="Woody Allen">
+        <div id="fincher" class="contenedorPortada1">
+            <img id="portadaStan" src="Fincher/fincherdirecting.jpg" alt="David Fincher">
              <div class="contenedorNomb">
-                <h2 class="H2nomStan">Hayao Miyazaki</h2>
+                <h2 class="H2nomStan">David Fincher</h2>
              </div>  
         </div>
           
@@ -88,25 +136,24 @@
     
     <div class="contenedorS">
         <div class="elemento uno">
-            <img id="hayao1" src="Hayao/catillo.jpg" alt="Castillo en el Cielo">
-            <div class="castillo">
-                <h3 id="H3Castillo">Castillo en el Cielo</h3>
+            <img id="david1" src="Fincher/seven.jpg" alt="Midnight in Paris">
+            <div class="se7en">
+                <h3 id="H3Midnight">Se7en</h3>
             </div>      
         </div>
         <div class="elemento dos">
-            <img id="hayao2" src="Hayao/totoro.jpg" alt="Mi Vecino Totoro">
-            <div class="totoro">
-                <h3 id="H3Totoro">Mi Vecino Totoro</h3>
+            <img id="david2" src="Fincher/gone.jpg" alt="Manhattan">
+            <div class="goneGirl">
+                <h3 id="H3Manhattan">Gone Girl</h3>
             </div> 
         </div>
         <div class="elemento tres">
-            <img id="hayao3" src="Hayao/princesa.jpg" alt="La Princesa Mononoke">
-            <div class="princesa">
-                <h3 id="H3Princesa">La Princesa Mononoke</h3>
+            <img id="david3" src="Fincher/fight.jpg" alt="Deconstructing Harry">
+            <div class="fightClub">
+                <h3 id="H3Deconstruc">Fight Club</h3>
             </div>
         </div>
     </div>
-
   
     
 </body>
